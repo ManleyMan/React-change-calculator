@@ -93,8 +93,8 @@ class App extends Component {
               this.calculate()}}>Calculate</button>
             
           </form>
-      
-           <h1>The total change due is ${this.state.changeDue} </h1>
+          <div className="alert alert-success">     
+           <h1>The total change due is ${this.state.changeDue} </h1> </div>
           <div >
             <div>
           
